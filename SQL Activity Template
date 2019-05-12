@@ -1,0 +1,16 @@
+CREATE TABLE Class_Tables (
+  First_Name TEXT,
+  Last_Name TEXT,
+  Table_Number INTEGER,   -- Table # you are seated at
+  Laptop_Type TEXT,       -- Laptop Type ('PC', 'MAC', or 'None')
+  Work_Days INTEGER,      -- Total # of days you worked this week
+  Pets INTEGER            -- Total # of pets you currently own       
+  );
+
+
+ -- ---------------------------Table 1-----------------------------------
+INSERT INTO Class_Tables (First_Name, Last_Name, Table_Number, Laptop_Type, Work_Days, Pets)
+VALUES 
+-- EXAMPLE : ('John', 'Smith', '10', 'MAC', 4, 1),
+-- ('David', 'Wang', 2, 'PC', 3, 1),
+
