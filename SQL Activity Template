@@ -1,3 +1,4 @@
+``SQL
 CREATE TABLE Class_Tables (
   First_Name TEXT,
   Last_Name TEXT,
@@ -13,4 +14,4 @@ INSERT INTO Class_Tables (First_Name, Last_Name, Table_Number, Laptop_Type, Work
 VALUES 
 -- EXAMPLE : ('John', 'Smith', '10', 'MAC', 4, 1),
 -- ('David', 'Wang', 2, 'PC', 3, 1),
-
+```
